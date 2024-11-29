@@ -3,9 +3,9 @@ package org.example.domain.Member;
 import org.example.domain.Tournaments.Tournament;
 import jakarta.persistence.*;
 
-import java.util.ArrayList;
+
 import java.util.Date;
-import java.util.List;
+
 
 @Entity
 public class Member {
@@ -104,13 +104,6 @@ public class Member {
         this.membershipDuration = membershipDuration;
     }
 
-//    public List<Tournament> getTournament() {
- //       return tournament;
-  //  }
-
-//    public void setTournament(List<Tournament> tournament) {
-//        this.tournament = tournament;
-//    }
 
     public Tournament getTournamentName() {
         return tournamentName;
